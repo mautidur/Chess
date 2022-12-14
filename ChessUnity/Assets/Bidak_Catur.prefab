@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5660645436432162921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2066872, y: -8.183648, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.01, y: -8.02, z: 0}
+  m_LocalScale: {x: 2.0293052, y: 2.0293052, z: 2.0293052}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 56777aa3a047597408a717b0aa9015e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 909d2882c7be18b4daa288581b6a91f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,18 +100,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
   moveplates: {fileID: 848700044503903677, guid: 1e51fabf02c520045bb17c878b70eccd, type: 3}
-  black_queen: {fileID: 21300000, guid: fb9cd9ea5f9fd7742bf3734b1c322035, type: 3}
-  black_knight: {fileID: 21300000, guid: 1b16ac6b957984c46b61afe44c4fffba, type: 3}
-  black_pawn: {fileID: 21300000, guid: 16a2ce6ca817dcb4fbd7607ee8a30341, type: 3}
-  black_bishop: {fileID: 21300000, guid: cd6f03efe9612614abb30e7a420b4537, type: 3}
-  black_king: {fileID: 21300000, guid: 2881db33e631492468834809784faf5f, type: 3}
-  black_rook: {fileID: 21300000, guid: 723122ab1922dd249805bf38ebcc759c, type: 3}
-  white_queen: {fileID: 21300000, guid: 7a2faf0835009ed4ca97323b4bfa2b67, type: 3}
-  white_knight: {fileID: 21300000, guid: 969cbbcb5c7c37443949f6534875fb37, type: 3}
-  white_pawn: {fileID: 21300000, guid: 09d3be171df6ef24ab2b8b7f7f9b103c, type: 3}
-  white_bishop: {fileID: 21300000, guid: 612dc21117fd8ab4a882a704c99a1b43, type: 3}
-  white_king: {fileID: 21300000, guid: 56777aa3a047597408a717b0aa9015e6, type: 3}
-  white_rook: {fileID: 21300000, guid: b27694e88135c5e4cb5ae05388c849f8, type: 3}
+  black_queen: {fileID: 21300000, guid: 29537b6692bc1784eaf97f0a76bd5593, type: 3}
+  black_knight: {fileID: 21300000, guid: aa2620f62ce0d9e40952db97a8334fac, type: 3}
+  black_pawn: {fileID: 21300000, guid: b55fa6b12f28dc04d882cde7e5234a52, type: 3}
+  black_bishop: {fileID: 21300000, guid: 1d96d82e15748884a8dc50ad5a6554b1, type: 3}
+  black_king: {fileID: 21300000, guid: 65a669a14ae1cd14b82d5297af9519ec, type: 3}
+  black_rook: {fileID: 21300000, guid: 3febe7f49f12e444cb6efec60e00cb13, type: 3}
+  white_queen: {fileID: 21300000, guid: 909d2882c7be18b4daa288581b6a91f3, type: 3}
+  white_knight: {fileID: 21300000, guid: 1123b039a07cdd04bb6cddff51dd6270, type: 3}
+  white_pawn: {fileID: 21300000, guid: 7f01b43904bfeb9499ef7be8bf9f44ee, type: 3}
+  white_bishop: {fileID: 21300000, guid: 6f1a7f917a3d24f488f3cd50318b7955, type: 3}
+  white_king: {fileID: 21300000, guid: ed667925285f8cc4e959bcb5b74274fd, type: 3}
+  white_rook: {fileID: 21300000, guid: a127b537617c8174bb801824cf876748, type: 3}
 --- !u!61 &-5856140143025720113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -125,16 +125,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.035107583}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.99, y: 1.82}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1.99, y: 1.82}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.99, y: 1.82}
+  m_Size: {x: 1.0077124, y: 1.0077124}
   m_EdgeRadius: 0
