@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Instantiate : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Bidak_Catur;
+
 
     //player dan posisi di masing masing bidak
     private GameObject[,] positions = new GameObject[8,8];
@@ -100,10 +102,13 @@ public class Instantiate : MonoBehaviour
         if (currentplayer == "white")
         {
             currentplayer = "black";
+            Debug.Log("black turn");
+
         }
         else
         {
             currentplayer = "white";
+            Debug.Log("white turn");
         }
     }
 
@@ -117,6 +122,14 @@ public class Instantiate : MonoBehaviour
         }
     }
 
+    public void Winner(string playerWinner)
+    {
+        gameOver = true;
+
+        GameObject.FindGameObjectWithTag("Winnertext").GetComponent<Text>().enabled = true;
+        GameObject.FindGameObjectWithTag("WinnerText").GetComponent<Text>().text = playerWinner + " is the winner";
+        GameObject.FindGameObjectWithTag("restarttext").GetComponent<Text>().enabled = true;
+    }
 
 
 
